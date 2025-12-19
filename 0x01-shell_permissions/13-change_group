@@ -1,0 +1,3 @@
+#!/bin/bash
+chgrp school hello # This script changes the group owner of hello to the group school
+
