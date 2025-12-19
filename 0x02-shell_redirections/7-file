@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 2 filename > temp && mv temp filename
+echo "Best School" > $'*\\\'"Best School"\'\\*$\\?*****:)'
