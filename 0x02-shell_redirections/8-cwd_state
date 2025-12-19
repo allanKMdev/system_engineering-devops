@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -la > ls_cwd_content # Write the output of ls -la into ls_cwd_content, overwriting if it exists
+head -n 2 8-cwd_state > temp && mv temp 8-cwd_state
 
