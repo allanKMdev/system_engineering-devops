@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod 007 hello  # This script sets the permissions for hello: owner=no, group=no, others=all
