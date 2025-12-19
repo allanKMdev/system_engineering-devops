@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
-touch hello 
-
+# This script creates an empty file named hello
+if [ -e hello ]; then
+    # File exists, empty it
+    > hello
+else
+    # File does not exist, create it
+    > hello
+fi
 
 
